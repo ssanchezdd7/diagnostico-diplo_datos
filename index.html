@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: blob:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta name="description" content="Diagnóstico de conocimientos y necesidades de formación de la diplomatura del IIEE. Análisis local y privado de exportaciones Excel y CSV.">
+  <title>Diagnóstico de la diplomatura · IIEE</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="vendor/xlsx.full.min.js"></script><script defer src="vendor/chart.umd.min.js"></script>
+  <script defer src="config.js"></script><script defer src="core.js"></script><script defer src="aggregate-source.js"></script><script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Saltar al contenido</a>
+  <header class="masthead"><img class="institution-logo" src="logo-economicas-uccuyo.png" alt="Facultad de Ciencias Económicas y Empresariales · Universidad Católica de Cuyo · San Juan" width="1256" height="222"><div class="private"><span class="dot"></span> Análisis en este navegador</div></header>
+  <main id="main">
+    <section class="intro"><div><p class="eyebrow">DIPLOMATURA · PRODUCCIÓN, ANÁLISIS Y COMUNICACIÓN DE DATOS</p><h1>Diagnóstico de la diplomatura</h1><p class="lede">Conocimientos y experiencias previas para conocer el punto de partida de los participantes.</p><p id="source-summary" class="support" aria-live="polite">Preparando resultados de la fuente…</p></div></section>
+    <div class="toolbar"><button class="button" id="initial-source">Volver a la fuente inicial</button><details class="local-import"><summary>Analizar otro Excel</summary><section class="upload-panel" aria-labelledby="upload-title"><div><h2 id="upload-title">Análisis local opcional</h2><p>El archivo se procesa en este navegador. Las respuestas no se envían ni se guardan en la aplicación</p><small>Excel (.xlsx) o CSV · Hasta 20 MB</small></div><div class="upload-actions"><label class="button primary" for="file">Seleccionar archivo</label><input class="file-input" id="file" type="file" accept=".xlsx,.csv"><button id="clear" class="button" disabled>Limpiar datos</button></div></section></details></div>
+    <div id="status" role="status" aria-live="polite"></div>
+    <section id="import-panel" class="panel" hidden></section>
+    <section id="workspace" hidden>
+      <div class="workspace-heading"><div><p class="eyebrow">02 / EXPLORACIÓN</p><h2>Resultados del diagnóstico</h2></div><span id="selected-count" class="badge" aria-live="polite"></span></div>
+      <nav class="tabs" aria-label="Vistas del tablero"><button class="active" data-view="overview">Resumen general</button><button data-view="questions">Por pregunta</button><button data-view="competencies">Profundizar el diagnóstico</button><button data-view="comparison">Comparar grupos</button><button data-view="configuration">Glosario</button></nav>
+      <p class="support">Empezá por el resumen. Usá los filtros para elegir un grupo y «Por pregunta» para explorar un tema. En «Comparar grupos» podés ver sus diferencias; «Profundizar el diagnóstico» propone preguntas para una próxima encuesta.</p>
+      <div class="analysis-layout"><aside id="filters" class="panel filters" aria-label="Filtros globales"></aside><section id="results" aria-label="Resultados"></section></div>
+    </section>
+    <section id="empty" class="empty" hidden><div class="empty-icon" aria-hidden="true">▥</div><h2>Resultados no disponibles</h2><p>Recargá la página o revisá el mensaje de error. También podés analizar otra exportación local.</p><div class="steps"><span><b>1</b> Cargá el archivo</span><span><b>2</b> Revisá la importación</span><span><b>3</b> Explorá los resultados</span></div></section>
+    <footer><span>IIEE · Diagnóstico para la planificación docente</span><span>Sin índices globales ni rankings · Datos declarados por participantes</span></footer>
+  </main>
+</body></html>

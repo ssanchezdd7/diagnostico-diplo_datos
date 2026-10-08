@@ -1,0 +1,353 @@
+{
+  "version": 1,
+  "columns": [
+    {
+      "header": "Marca temporal",
+      "title": "Fecha de respuesta",
+      "role": "date",
+      "kind": "date",
+      "dimension": "",
+      "order": [],
+      "options": [],
+      "need": [],
+      "strength": [],
+      "content": "",
+      "moduleIds": [],
+      "curriculumNote": ""
+    },
+    {
+      "header": "Organismo o dependencia en la que prestás funciones  ",
+      "title": "Organismo o dependencia",
+      "role": "organism",
+      "kind": "category",
+      "dimension": "",
+      "order": [],
+      "options": [],
+      "need": [],
+      "strength": [],
+      "content": "",
+      "moduleIds": [],
+      "curriculumNote": ""
+    },
+    {
+      "header": "¿Qué vínculo tenés actualmente con los datos en tu labor diaria?  ",
+      "title": "Vínculo con los datos",
+      "role": "profile",
+      "kind": "multiple",
+      "dimension": "",
+      "order": [],
+      "options": [
+        "Recolección / Carga manual de planillas y expedientes",
+        "Gestión y mantenimiento de registros administrativos o bases de datos",
+        "Elaboración de informes, cálculos e indicadores para autoridades",
+        "Coordinación o supervisión operativa de relevamientos/encuestas",
+        "Poco o casi nulo, pero mi área necesita empezar a usarlos"
+      ],
+      "need": [],
+      "strength": [],
+      "content": "",
+      "moduleIds": [],
+      "curriculumNote": ""
+    },
+    {
+      "header": "¿Conocés el marco legal que regula el Secreto Estadístico (Ley Provincial 226-A) y la Ley de Ética Pública en el manejo de datos?  ",
+      "title": "Marco normativo",
+      "role": "question",
+      "kind": "ordinal",
+      "dimension": "Marco normativo",
+      "order": [
+        "No las conozco",
+        "He escuchado hablar de ellas pero no conozco su alcance técnico-legal",
+        "Conozco los conceptos generales y su impacto en mi tarea cotidiana",
+        "Las aplico habitualmente en la gestión de datos de mi organismo"
+      ],
+      "options": [],
+      "need": [
+        "No las conozco",
+        "He escuchado hablar de ellas pero no conozco su alcance técnico-legal"
+      ],
+      "strength": [
+        "Las aplico habitualmente en la gestión de datos de mi organismo"
+      ],
+      "content": "Secreto estadístico, protección de datos, normativa y ética en la producción de datos públicos.",
+      "moduleIds": [
+        "I"
+      ],
+      "curriculumNote": "El conocimiento legal declarado orienta el abordaje del módulo I. No permite evaluar el enfoque ético y humanizador del módulo VIII."
+    },
+    {
+      "header": "  ¿Cómo calificás la calidad de los datos/registros que gestiona habitualmente tu oficina?  ",
+      "title": "Calidad de registros",
+      "role": "question",
+      "kind": "ordinal",
+      "dimension": "Calidad de datos",
+      "order": [
+        "Con muchas inconsistencias, duplicados y falta de validación",
+        "Aceptable, pero requiere mucho tiempo de limpieza y corrección manual",
+        "Buena y estandarizada, lista para ser analizada",
+        "No trabajo directamente con bases de datos"
+      ],
+      "options": [],
+      "need": [
+        "Con muchas inconsistencias, duplicados y falta de validación",
+        "Aceptable, pero requiere mucho tiempo de limpieza y corrección manual"
+      ],
+      "strength": [
+        "Buena y estandarizada, lista para ser analizada"
+      ],
+      "content": "Validación de datos, controles de consistencia, detección de errores y buenas prácticas.",
+      "moduleIds": [
+        "III"
+      ],
+      "curriculumNote": "La necesidad se refiere a la calidad percibida de los registros de la oficina; no demuestra falta de habilidad personal ni dominio de sistemas de información."
+    },
+    {
+      "header": "Nivel de dominio práctico en Microsoft Excel / Google Sheets:  ",
+      "title": "Excel / Google Sheets",
+      "role": "question",
+      "kind": "ordinal",
+      "dimension": "Análisis estadístico",
+      "order": [
+        "Inicial: Carga de datos, operaciones básicas (suma, promedio) y filtros simples.",
+        "Intermedio: Tablas dinámicas, funciones de búsqueda (BUSCARV/BUSCARX, CONTAR.SI, SI), gráficos estándar.",
+        "Avanzado: Fórmulas anidadas, Power Query, macros o modelado de datos."
+      ],
+      "options": [],
+      "need": [
+        "Inicial: Carga de datos, operaciones básicas (suma, promedio) y filtros simples."
+      ],
+      "strength": [
+        "Intermedio: Tablas dinámicas, funciones de búsqueda (BUSCARV/BUSCARX, CONTAR.SI, SI), gráficos estándar.",
+        "Avanzado: Fórmulas anidadas, Power Query, macros o modelado de datos."
+      ],
+      "content": "Uso básico de Excel para análisis exploratorio, identificación de patrones y construcción de indicadores.",
+      "moduleIds": [
+        "V"
+      ],
+      "curriculumNote": "La escala de Excel / Sheets orienta el punto de partida. El programa menciona Excel; Google Sheets es una herramienta consultada por la encuesta."
+    },
+    {
+      "header": "¿Tenés experiencia previa con lenguajes de programación o análisis de datos como Python o R? ",
+      "title": "Python / R",
+      "role": "question",
+      "kind": "ordinal",
+      "dimension": "Análisis estadístico",
+      "order": [
+        "Ninguna, es un mundo totalmente nuevo para mí",
+        "Muy básica (sé qué es, pero nunca escribí código o ejecuté un script)",
+        "Intermedia (he usado Jupyter Notebooks o Google Colab para análisis básico)",
+        "Avanzada"
+      ],
+      "options": [],
+      "need": [
+        "Ninguna, es un mundo totalmente nuevo para mí",
+        "Muy básica (sé qué es, pero nunca escribí código o ejecuté un script)"
+      ],
+      "strength": [
+        "Intermedia (he usado Jupyter Notebooks o Google Colab para análisis básico)",
+        "Avanzada"
+      ],
+      "content": "Introducción a Python y uso de herramientas para análisis exploratorio de datos.",
+      "moduleIds": [
+        "V"
+      ],
+      "curriculumNote": "La encuesta pregunta conjuntamente por Python o R: no permite atribuir experiencia a cada lenguaje. El módulo V incluye introducción a Python; no se agrega formación en R como contenido oficial."
+    },
+    {
+      "header": "¿Qué tan familiarizado/a estás con conceptos de estadística aplicada? (Medidas de tendencia central, dispersión, muestreo, series de tiempo)",
+      "title": "Estadística aplicada",
+      "role": "question",
+      "kind": "ordinal",
+      "dimension": "Análisis estadístico",
+      "order": [
+        "Nivel 1: Conceptos muy oxidados o no los recuerdo",
+        "Nivel 2: Comprendo la teoría general pero me cuesta aplicarla o interpretarla en tablas reales",
+        "Nivel 3: Calculo e interpreto indicadores habitualmente en mi trabajo"
+      ],
+      "options": [],
+      "need": [
+        "Nivel 1: Conceptos muy oxidados o no los recuerdo",
+        "Nivel 2: Comprendo la teoría general pero me cuesta aplicarla o interpretarla en tablas reales"
+      ],
+      "strength": [
+        "Nivel 3: Calculo e interpreto indicadores habitualmente en mi trabajo"
+      ],
+      "content": "Estadística descriptiva, visualización básica y lectura crítica de indicadores; análisis exploratorio y construcción de indicadores.",
+      "moduleIds": [
+        "IV",
+        "V"
+      ],
+      "curriculumNote": "La familiaridad es general. No se asignan porcentajes propios a muestreo (II), series de tiempo (VI), regresión o inferencia."
+    },
+    {
+      "header": "  ¿Con qué herramientas confeccionás informes o reportes para autoridades/decisores?  ",
+      "title": "Herramientas de comunicación",
+      "role": "question",
+      "kind": "multiple",
+      "dimension": "Comunicación de resultados",
+      "order": [],
+      "options": [
+        "Word / PDF con tablas y textos redactados",
+        "Presentaciones en PowerPoint",
+        "Gráficos en Excel",
+        "Herramientas de visualización o tableros (Power BI, Looker Studio, Tableau)",
+        "No elaboro informes"
+      ],
+      "need": [],
+      "strength": [],
+      "content": "Storytelling, visualización efectiva, tableros conceptuales, síntesis ejecutiva y redacción e interpretación de informes.",
+      "moduleIds": [
+        "VII"
+      ],
+      "curriculumNote": "Se describe el uso de herramientas, sin una regla de puntuación de habilidad comunicativa. No elaborar informes no se interpreta como incompetencia."
+    },
+    {
+      "header": "Pensando en el Trabajo Integrador Final (TIF): ¿Tenés identificada alguna problemática, base de datos o proceso de tu oficina que te gustaría analizar y transformar a lo largo del curso?  ",
+      "title": "Trabajo integrador final",
+      "role": "question",
+      "kind": "ordinal",
+      "dimension": "",
+      "order": [
+        "Todavía no, me gustaría explorar casos propuestos por los docentes",
+        "Tengo una idea general, pero necesitaré ayuda para definir los datos",
+        "Sí, tengo claro un problema concreto y datos disponibles para trabajar"
+      ],
+      "options": [],
+      "need": [
+        "Todavía no, me gustaría explorar casos propuestos por los docentes",
+        "Tengo una idea general, pero necesitaré ayuda para definir los datos"
+      ],
+      "strength": [
+        "Sí, tengo claro un problema concreto y datos disponibles para trabajar"
+      ],
+      "content": "Informe Estadístico Ejecutivo o Tablero de Control conceptual de un problema del área de origen, con integración de fuentes, análisis y comunicación; acompañamiento tutorial.",
+      "moduleIds": [
+        "TIF"
+      ],
+      "curriculumNote": "La regla señala necesidad de acompañamiento para definir el problema o los datos. No clasifica el dominio estadístico de la persona."
+    },
+    {
+      "header": "  ¿Cuál es tu principal expectativa o desafío al iniciar esta diplomatura?  ",
+      "title": "Expectativas y desafíos",
+      "role": "question",
+      "kind": "text",
+      "dimension": "",
+      "order": [],
+      "options": [],
+      "need": [],
+      "strength": [],
+      "content": "",
+      "moduleIds": [],
+      "curriculumNote": ""
+    }
+  ],
+  "dimensions": [
+    "Marco normativo",
+    "Calidad de datos",
+    "Sistemas de información",
+    "Muestreo",
+    "Análisis estadístico",
+    "Series de tiempo",
+    "Comunicación de resultados"
+  ],
+  "curriculumLabel": "Contenidos del programa oficial adjunto; correspondencias pedagógicas revisables",
+  "curriculum": {
+    "title": "Diplomatura en Producción, Análisis y Comunicación de Datos Estadísticos",
+    "source": "Programa adjunto · Universidad Católica de Cuyo · Facultad de Ciencias Económicas y Empresariales",
+    "filename": "Diplomatura en Producción, Análisis y Comunicación de Datos Estadísticos.pdf",
+    "note": "La estructura de contenidos y el cronograma enumeran ocho módulos (I a VIII). Los apartados de duración y cronograma mencionan siete; se conserva la enumeración explícita de contenidos, sin resolver esa inconsistencia editorial.",
+    "modules": [
+      {
+        "id": "I",
+        "title": "Marco Institucional, Legal y Rol del Productor de Datos",
+        "axis": "Producción de Datos y Calidad Estadística",
+        "pages": [
+          5
+        ],
+        "topics": "Sistema Estadístico Nacional y Provincial; secreto estadístico, protección de datos y normativa; ética en la producción de datos públicos; confianza pública.",
+        "coverage": "La pregunta de marco legal aporta conocimiento declarado. No evalúa todos los contenidos del módulo."
+      },
+      {
+        "id": "II",
+        "title": "Diseño de Operativos Estadísticos y Fuentes de Datos",
+        "axis": "Producción de Datos y Calidad Estadística",
+        "pages": [
+          5
+        ],
+        "topics": "Objetivos, población y unidades de análisis; diseño muestral y representatividad; cuestionarios, sesgos y errores; registros administrativos e integración de fuentes.",
+        "coverage": "Muestreo solo aparece en una pregunta general de familiaridad estadística. No hay un resultado específico sobre diseño muestral, cuestionarios o integración de fuentes."
+      },
+      {
+        "id": "III",
+        "title": "Gestión de Calidad y Sistemas de Información",
+        "axis": "Producción de Datos y Calidad Estadística",
+        "pages": [
+          5,
+          6
+        ],
+        "topics": "Dimensiones de calidad; ciclo de producción; captura digital y bases de datos; validación, controles de consistencia y detección de errores; buenas prácticas y metadatos.",
+        "coverage": "Se describe la calidad percibida de los registros de la oficina. No mide por separado habilidades en sistemas de información, captura digital o metadatos."
+      },
+      {
+        "id": "IV",
+        "title": "Estadística Aplicada al Sector Público",
+        "axis": "Análisis Estadístico para la Gestión Pública",
+        "pages": [
+          6
+        ],
+        "topics": "Variables y escalas; media, mediana y dispersión; visualización básica; probabilidad; estimación e intervalos; lectura crítica de indicadores.",
+        "coverage": "La pregunta general de estadística aporta familiaridad declarada. No distingue dominio de probabilidad, estimación o intervalos."
+      },
+      {
+        "id": "V",
+        "title": "Análisis y Modelización de Datos",
+        "axis": "Análisis Estadístico para la Gestión Pública",
+        "pages": [
+          6
+        ],
+        "topics": "Análisis exploratorio (EDA), patrones e indicadores; introducción a regresión; uso básico de Excel e introducción a Python; interpretación para política pública.",
+        "coverage": "Excel, experiencia Python / R y familiaridad estadística aportan antecedentes declarados. La encuesta no separa Python de R; el contenido de este módulo menciona Excel y Python."
+      },
+      {
+        "id": "VI",
+        "title": "Análisis de Series de Tiempo e Indicadores Públicos",
+        "axis": "Comunicación Estratégica y Uso del Dato",
+        "pages": [
+          6
+        ],
+        "topics": "Series de tiempo, tendencia y estacionalidad; indicadores económicos y sociales; comparaciones temporales; proyecciones simples y monitoreo de políticas públicas.",
+        "coverage": "Series de tiempo solo aparece en la pregunta general de estadística. No hay una medición específica que justifique una necesidad o fortaleza propia de este módulo."
+      },
+      {
+        "id": "VII",
+        "title": "Narrativa de Datos y Comunicación Estratégica",
+        "axis": "Comunicación Estratégica y Uso del Dato",
+        "pages": [
+          6
+        ],
+        "topics": "Data storytelling; visualización efectiva; tableros conceptuales; síntesis ejecutiva, redacción e interpretación de informes; uso institucional del dato y errores frecuentes.",
+        "coverage": "Se informa el uso declarado de herramientas de reportes. Usar una herramienta no demuestra dominio de narrativa, visualización o comunicación estratégica."
+      },
+      {
+        "id": "VIII",
+        "title": "Producción, Análisis y Comunicación de Datos Estadísticos, en el marco de un enfoque ético y humanizador",
+        "axis": "Ética Social Cristiana",
+        "pages": [
+          7
+        ],
+        "topics": "Bien común y dignidad humana; criterios éticos en recopilación, procesamiento e interpretación; Magisterio Social de la Iglesia y cultura de los datos; discernimiento ético.",
+        "coverage": "La encuesta no incluye una pregunta específica sobre este enfoque ético y humanizador. No se infiere su dominio a partir de la pregunta sobre conocimiento de leyes."
+      },
+      {
+        "id": "TIF",
+        "title": "Trabajo Integrador Final",
+        "axis": "Integración de la cadena de valor del dato",
+        "pages": [
+          9
+        ],
+        "topics": "Informe Estadístico Ejecutivo o Tablero de Control conceptual aplicado a un problema del área de origen; justificar datos, procesar y analizar, comunicar con storytelling y visualizaciones; acompañamiento tutorial.",
+        "coverage": "La pregunta identifica disponibilidad de un problema y datos para el TIF. Es preparación para el proyecto, no un nivel de competencia estadística."
+      }
+    ]
+  }
+}
